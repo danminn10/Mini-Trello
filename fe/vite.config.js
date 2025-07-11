@@ -12,6 +12,12 @@ export default defineConfig({
       },
       fontFamily: {
         catamaran: ['Catamaran', 'sans-serif'],
+      },
+      fontWeight: {
+        normal: 400,
+        medium: 500,
+        semibold: 600,
+        bold: 700,
       }
     }
   },

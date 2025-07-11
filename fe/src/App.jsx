@@ -1,10 +1,7 @@
-import { Routes, Route } from 'react-router-dom'
-import Login from './pages/Login.jsx'
+import AppRoutes from './routes/index.jsx';
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-    </Routes>
+    <AppRoutes />
   )
 }
 
