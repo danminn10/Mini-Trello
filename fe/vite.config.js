@@ -9,6 +9,7 @@ export default defineConfig({
     extends: {
       boxShadow: {
         'custom-login': '0 0 1px rgba(23,26,31,0.15), 0 0 2px rgba(23,26,31,0.2)',
+        'custom-board': '0 3px 6px rgba(18,15,40,0.12)'
       },
       fontFamily: {
         catamaran: ['Catamaran', 'sans-serif'],
